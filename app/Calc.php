@@ -86,5 +86,13 @@ class Calc
         return $this->value;
     }
 
+    /**
+     * @param int|mixed $rate
+     */
+    public function setRate($rate)
+    {
+        $this->rate = $rate;
+    }
+
 
 }

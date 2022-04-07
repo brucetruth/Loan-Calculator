@@ -35,6 +35,9 @@
         <div class="col-md-6 form-group">
             <input name="months" type="number" class="form-control" placeholder="months" required>
         </div>
+        <div class="col-md-6 form-group">
+            <input name="rate" type="number" class="form-control" placeholder="rate" required>
+        </div>
 
         <div class="col-12">
             <input name="submit" type="submit" class="btn btn-success" value="Send Message">
